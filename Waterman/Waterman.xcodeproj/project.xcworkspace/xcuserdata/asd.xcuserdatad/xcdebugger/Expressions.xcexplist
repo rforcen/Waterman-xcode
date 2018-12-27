@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "HalfEdgeFromToIterator.makeIterator():HalfEdgeIterators.swift">
+      </ContextState>
+      <ContextState
+         contextName = "WatermanPolyhedra.convexHull(coords:):WatermanPolyhedra.swift">
+      </ContextState>
+      <ContextState
+         contextName = "genTubes(coords:material:):misc.swift">
+      </ContextState>
+      <ContextState
+         contextName = "QuickHull3D.getFaceIndices(_:_:_:):QuickHull3D.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "face.he0">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HalfEdgeFromToIteratorProtocol.init(from:to:):HalfEdgeIterators.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HalfEdgeIter.makeIterator():HEiter.swift">
+      </ContextState>
+      <ContextState
+         contextName = "setSegments #1 () in genTubes(coords:material:):misc.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HalfEdgeIterIterator.next():HEiter.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HalfEdgeFromToIteratorProtocol.next():HalfEdgeIterators.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HalfEdgeIterIterator.init(_:):HEiter.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static Segment.== infix(_:_:):Segment.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(left.from==right.from &amp;&amp; left.to==right.to) ||&#10;                (left.to==right.from &amp;&amp; left.from==right.to)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

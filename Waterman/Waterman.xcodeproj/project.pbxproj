@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E03C0BC21D22B4100B32E0E /* PointSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E03C0BB21D22B4100B32E0E /* PointSegment.swift */; };
+		4E21FCCE21D375C000FE615D /* C_Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607621CB758F00B967AA /* C_Interface.swift */; };
+		4E21FCCF21D375C000FE615D /* C_Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607621CB758F00B967AA /* C_Interface.swift */; };
+		4E21FCD021D375CD00FE615D /* swiftInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5606C21CB758F00B967AA /* swiftInterface.cpp */; };
+		4E21FCD221D375CD00FE615D /* FaceList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5606A21CB758F00B967AA /* FaceList.cpp */; };
+		4E21FCD321D375CD00FE615D /* HalfEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5606D21CB758F00B967AA /* HalfEdge.cpp */; };
+		4E21FCD521D375CD00FE615D /* Vector3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607021CB758F00B967AA /* Vector3d.cpp */; };
+		4E21FCD621D375CD00FE615D /* Point3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607121CB758F00B967AA /* Point3d.cpp */; };
+		4E21FCD721D375CD00FE615D /* QuickHull3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607321CB758F00B967AA /* QuickHull3D.cpp */; };
+		4E21FCD821D375CD00FE615D /* Face.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607421CB758F00B967AA /* Face.cpp */; };
+		4E21FCD921D375CD00FE615D /* VertexList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607821CB758F00B967AA /* VertexList.cpp */; };
+		4E21FCDA21D375CD00FE615D /* Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607A21CB758F00B967AA /* Vertex.cpp */; };
+		4E21FCDB21D375CD00FE615D /* swiftInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5606C21CB758F00B967AA /* swiftInterface.cpp */; };
+		4E21FCDD21D375CD00FE615D /* FaceList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5606A21CB758F00B967AA /* FaceList.cpp */; };
+		4E21FCDE21D375CD00FE615D /* HalfEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5606D21CB758F00B967AA /* HalfEdge.cpp */; };
+		4E21FCE021D375CD00FE615D /* Vector3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607021CB758F00B967AA /* Vector3d.cpp */; };
+		4E21FCE121D375CD00FE615D /* Point3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607121CB758F00B967AA /* Point3d.cpp */; };
+		4E21FCE221D375CD00FE615D /* QuickHull3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607321CB758F00B967AA /* QuickHull3D.cpp */; };
+		4E21FCE321D375CD00FE615D /* Face.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607421CB758F00B967AA /* Face.cpp */; };
+		4E21FCE421D375CD00FE615D /* VertexList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607821CB758F00B967AA /* VertexList.cpp */; };
+		4E21FCE521D375CD00FE615D /* Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5607A21CB758F00B967AA /* Vertex.cpp */; };
+		4E21FCE821D37CB600FE615D /* watermanpoly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E21FCE721D37CB600FE615D /* watermanpoly.cpp */; };
+		4E21FCE921D37CB600FE615D /* watermanpoly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E21FCE721D37CB600FE615D /* watermanpoly.cpp */; };
+		4E21FCEA21D38A8A00FE615D /* PointSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E03C0BB21D22B4100B32E0E /* PointSegment.swift */; };
+		4E21FCEC21D390C300FE615D /* mainDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E21FCEB21D390C300FE615D /* mainDefinitions.swift */; };
+		4E21FCED21D390C300FE615D /* mainDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E21FCEB21D390C300FE615D /* mainDefinitions.swift */; };
+		4E35183321CCCA6D00840BAC /* Iterators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35183221CCCA6D00840BAC /* Iterators.swift */; };
+		4E35183421CD035E00840BAC /* Iterators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35183221CCCA6D00840BAC /* Iterators.swift */; };
+		4EC5604821CB740800B967AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC5604721CB740800B967AA /* Assets.xcassets */; };
+		4EC5605621CB744300B967AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC5605521CB744300B967AA /* Main.storyboard */; };
+		4EC5605F21CB752E00B967AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5605D21CB752E00B967AA /* AppDelegate.swift */; };
+		4EC5606021CB752E00B967AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5605E21CB752E00B967AA /* ViewController.swift */; };
+		4EC5606321CB755000B967AA /* strobeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5606121CB755000B967AA /* strobeColors.swift */; };
+		4EC5608D21CB75D700B967AA /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5608A21CB75D700B967AA /* SCNVector3Extensions.swift */; };
+		4EC5608E21CB75D700B967AA /* WatermanScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5608B21CB75D700B967AA /* WatermanScene.swift */; };
+		4EC5608F21CB75D700B967AA /* SCNmisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5608C21CB75D700B967AA /* SCNmisc.swift */; };
+		4EC5609A21CB768B00B967AA /* Vector3d.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609121CB768B00B967AA /* Vector3d.swift */; };
+		4EC5609B21CB768B00B967AA /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609221CB768B00B967AA /* Face.swift */; };
+		4EC5609C21CB768B00B967AA /* FaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609321CB768B00B967AA /* FaceList.swift */; };
+		4EC5609D21CB768B00B967AA /* QuickHull3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609421CB768B00B967AA /* QuickHull3D.swift */; };
+		4EC5609E21CB768B00B967AA /* WatermanPolyhedra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609521CB768B00B967AA /* WatermanPolyhedra.swift */; };
+		4EC5609F21CB768B00B967AA /* HalfEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609621CB768B00B967AA /* HalfEdge.swift */; };
+		4EC560A021CB768B00B967AA /* VertexList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609721CB768B00B967AA /* VertexList.swift */; };
+		4EC560A121CB768B00B967AA /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609821CB768B00B967AA /* Vertex.swift */; };
+		4EC560A221CB768B00B967AA /* Point3d.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609921CB768B00B967AA /* Point3d.swift */; };
+		4EC560AB21CB7A4000B967AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC560AA21CB7A4000B967AA /* AppDelegate.swift */; };
+		4EC560AD21CB7A4000B967AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC560AC21CB7A4000B967AA /* ViewController.swift */; };
+		4EC560B021CB7A4000B967AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC560AE21CB7A4000B967AA /* Main.storyboard */; };
+		4EC560B221CB7A4000B967AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC560B121CB7A4000B967AA /* Assets.xcassets */; };
+		4EC560B521CB7A4000B967AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC560B321CB7A4000B967AA /* LaunchScreen.storyboard */; };
+		4EC560BA21CB7B3B00B967AA /* Vector3d.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609121CB768B00B967AA /* Vector3d.swift */; };
+		4EC560BB21CB7B3B00B967AA /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609221CB768B00B967AA /* Face.swift */; };
+		4EC560BC21CB7B3B00B967AA /* FaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609321CB768B00B967AA /* FaceList.swift */; };
+		4EC560BD21CB7B3B00B967AA /* QuickHull3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609421CB768B00B967AA /* QuickHull3D.swift */; };
+		4EC560BE21CB7B3B00B967AA /* HalfEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609621CB768B00B967AA /* HalfEdge.swift */; };
+		4EC560BF21CB7B3B00B967AA /* VertexList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609721CB768B00B967AA /* VertexList.swift */; };
+		4EC560C021CB7B3B00B967AA /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609821CB768B00B967AA /* Vertex.swift */; };
+		4EC560C121CB7B3B00B967AA /* Point3d.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609921CB768B00B967AA /* Point3d.swift */; };
+		4EC560C221CB7B4200B967AA /* strobeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5606121CB755000B967AA /* strobeColors.swift */; };
+		4EC560C321CB7B4200B967AA /* WatermanPolyhedra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5609521CB768B00B967AA /* WatermanPolyhedra.swift */; };
+		4EC560C421CB7B4200B967AA /* SCNmisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5608C21CB75D700B967AA /* SCNmisc.swift */; };
+		4EC560C521CB7B4200B967AA /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5608A21CB75D700B967AA /* SCNVector3Extensions.swift */; };
+		4EC560C621CB7B4200B967AA /* WatermanScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5608B21CB75D700B967AA /* WatermanScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E03C0BB21D22B4100B32E0E /* PointSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointSegment.swift; sourceTree = "<group>"; };
+		4E21FCCB21D3755E00FE615D /* WaterManPoly-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaterManPoly-Bridging-Header.h"; sourceTree = "<group>"; };
+		4E21FCE621D37CB600FE615D /* watermanpoly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = watermanpoly.h; sourceTree = "<group>"; };
+		4E21FCE721D37CB600FE615D /* watermanpoly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = watermanpoly.cpp; sourceTree = "<group>"; };
+		4E21FCEB21D390C300FE615D /* mainDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainDefinitions.swift; sourceTree = "<group>"; };
+		4E35183221CCCA6D00840BAC /* Iterators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterators.swift; sourceTree = "<group>"; };
+		4EC5604021CB740700B967AA /* Waterman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waterman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC5604721CB740800B967AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EC5604C21CB740800B967AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC5604D21CB740800B967AA /* Waterman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Waterman.entitlements; sourceTree = "<group>"; };
+		4EC5605521CB744300B967AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4EC5605D21CB752E00B967AA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EC5605E21CB752E00B967AA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EC5606121CB755000B967AA /* strobeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strobeColors.swift; sourceTree = "<group>"; };
+		4EC5606721CB758F00B967AA /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		4EC5606821CB758F00B967AA /* VertexList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexList.h; sourceTree = "<group>"; };
+		4EC5606A21CB758F00B967AA /* FaceList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FaceList.cpp; sourceTree = "<group>"; };
+		4EC5606C21CB758F00B967AA /* swiftInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = swiftInterface.cpp; sourceTree = "<group>"; };
+		4EC5606D21CB758F00B967AA /* HalfEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HalfEdge.cpp; sourceTree = "<group>"; };
+		4EC5606E21CB758F00B967AA /* HalfEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfEdge.h; sourceTree = "<group>"; };
+		4EC5607021CB758F00B967AA /* Vector3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3d.cpp; sourceTree = "<group>"; };
+		4EC5607121CB758F00B967AA /* Point3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point3d.cpp; sourceTree = "<group>"; };
+		4EC5607321CB758F00B967AA /* QuickHull3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickHull3D.cpp; sourceTree = "<group>"; };
+		4EC5607421CB758F00B967AA /* Face.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Face.cpp; sourceTree = "<group>"; };
+		4EC5607521CB758F00B967AA /* swiftInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swiftInterface.h; sourceTree = "<group>"; };
+		4EC5607621CB758F00B967AA /* C_Interface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C_Interface.swift; sourceTree = "<group>"; };
+		4EC5607721CB758F00B967AA /* QuickHull3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickHull3D.h; sourceTree = "<group>"; };
+		4EC5607821CB758F00B967AA /* VertexList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VertexList.cpp; sourceTree = "<group>"; };
+		4EC5607921CB758F00B967AA /* Vector3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3d.h; sourceTree = "<group>"; };
+		4EC5607A21CB758F00B967AA /* Vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vertex.cpp; sourceTree = "<group>"; };
+		4EC5607B21CB758F00B967AA /* Face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face.h; sourceTree = "<group>"; };
+		4EC5607C21CB758F00B967AA /* Point3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point3d.h; sourceTree = "<group>"; };
+		4EC5607D21CB758F00B967AA /* FaceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceList.h; sourceTree = "<group>"; };
+		4EC5608A21CB75D700B967AA /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
+		4EC5608B21CB75D700B967AA /* WatermanScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermanScene.swift; sourceTree = "<group>"; };
+		4EC5608C21CB75D700B967AA /* SCNmisc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNmisc.swift; sourceTree = "<group>"; };
+		4EC5609121CB768B00B967AA /* Vector3d.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3d.swift; sourceTree = "<group>"; };
+		4EC5609221CB768B00B967AA /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		4EC5609321CB768B00B967AA /* FaceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceList.swift; sourceTree = "<group>"; };
+		4EC5609421CB768B00B967AA /* QuickHull3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickHull3D.swift; sourceTree = "<group>"; };
+		4EC5609521CB768B00B967AA /* WatermanPolyhedra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermanPolyhedra.swift; sourceTree = "<group>"; };
+		4EC5609621CB768B00B967AA /* HalfEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfEdge.swift; sourceTree = "<group>"; };
+		4EC5609721CB768B00B967AA /* VertexList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VertexList.swift; sourceTree = "<group>"; };
+		4EC5609821CB768B00B967AA /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		4EC5609921CB768B00B967AA /* Point3d.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point3d.swift; sourceTree = "<group>"; };
+		4EC560A821CB7A4000B967AA /* Waterman_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waterman_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC560AA21CB7A4000B967AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EC560AC21CB7A4000B967AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EC560AF21CB7A4000B967AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EC560B121CB7A4000B967AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EC560B421CB7A4000B967AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EC560B621CB7A4000B967AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC5603D21CB740700B967AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC560A521CB7A4000B967AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EC5603721CB740700B967AA = {
+			isa = PBXGroup;
+			children = (
+				4EC5604D21CB740800B967AA /* Waterman.entitlements */,
+				4E21FCCB21D3755E00FE615D /* WaterManPoly-Bridging-Header.h */,
+				4EC5606521CB755B00B967AA /* Commom */,
+				4EC5604221CB740700B967AA /* macOS */,
+				4EC560A921CB7A4000B967AA /* iOS */,
+				4EC5604121CB740700B967AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EC5604121CB740700B967AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EC5604021CB740700B967AA /* Waterman.app */,
+				4EC560A821CB7A4000B967AA /* Waterman_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EC5604221CB740700B967AA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EC5604721CB740800B967AA /* Assets.xcassets */,
+				4EC5604C21CB740800B967AA /* Info.plist */,
+				4EC5605D21CB752E00B967AA /* AppDelegate.swift */,
+				4EC5605E21CB752E00B967AA /* ViewController.swift */,
+				4EC5605521CB744300B967AA /* Main.storyboard */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		4EC5606521CB755B00B967AA /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				4EC5606621CB758F00B967AA /* convex hull cpp */,
+				4EC5609021CB768B00B967AA /* convex hull swift */,
+				4E21FCEB21D390C300FE615D /* mainDefinitions.swift */,
+				4EC5606121CB755000B967AA /* strobeColors.swift */,
+				4EC5609521CB768B00B967AA /* WatermanPolyhedra.swift */,
+				4EC5608C21CB75D700B967AA /* SCNmisc.swift */,
+				4EC5608A21CB75D700B967AA /* SCNVector3Extensions.swift */,
+				4EC5608B21CB75D700B967AA /* WatermanScene.swift */,
+				4E03C0BB21D22B4100B32E0E /* PointSegment.swift */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		4EC5606621CB758F00B967AA /* convex hull cpp */ = {
+			isa = PBXGroup;
+			children = (
+				4EC5607621CB758F00B967AA /* C_Interface.swift */,
+				4EC5606C21CB758F00B967AA /* swiftInterface.cpp */,
+				4EC5607521CB758F00B967AA /* swiftInterface.h */,
+				4E21FCE721D37CB600FE615D /* watermanpoly.cpp */,
+				4E21FCE621D37CB600FE615D /* watermanpoly.h */,
+				4EC5607721CB758F00B967AA /* QuickHull3D.h */,
+				4EC5607321CB758F00B967AA /* QuickHull3D.cpp */,
+				4EC5606721CB758F00B967AA /* Vertex.h */,
+				4EC5607A21CB758F00B967AA /* Vertex.cpp */,
+				4EC5606821CB758F00B967AA /* VertexList.h */,
+				4EC5607821CB758F00B967AA /* VertexList.cpp */,
+				4EC5607D21CB758F00B967AA /* FaceList.h */,
+				4EC5606A21CB758F00B967AA /* FaceList.cpp */,
+				4EC5606E21CB758F00B967AA /* HalfEdge.h */,
+				4EC5606D21CB758F00B967AA /* HalfEdge.cpp */,
+				4EC5607921CB758F00B967AA /* Vector3d.h */,
+				4EC5607021CB758F00B967AA /* Vector3d.cpp */,
+				4EC5607C21CB758F00B967AA /* Point3d.h */,
+				4EC5607121CB758F00B967AA /* Point3d.cpp */,
+				4EC5607B21CB758F00B967AA /* Face.h */,
+				4EC5607421CB758F00B967AA /* Face.cpp */,
+			);
+			path = "convex hull cpp";
+			sourceTree = "<group>";
+		};
+		4EC5609021CB768B00B967AA /* convex hull swift */ = {
+			isa = PBXGroup;
+			children = (
+				4EC5609121CB768B00B967AA /* Vector3d.swift */,
+				4EC5609921CB768B00B967AA /* Point3d.swift */,
+				4EC5609821CB768B00B967AA /* Vertex.swift */,
+				4EC5609221CB768B00B967AA /* Face.swift */,
+				4EC5609321CB768B00B967AA /* FaceList.swift */,
+				4EC5609621CB768B00B967AA /* HalfEdge.swift */,
+				4EC5609721CB768B00B967AA /* VertexList.swift */,
+				4E35183221CCCA6D00840BAC /* Iterators.swift */,
+				4EC5609421CB768B00B967AA /* QuickHull3D.swift */,
+			);
+			path = "convex hull swift";
+			sourceTree = "<group>";
+		};
+		4EC560A921CB7A4000B967AA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EC560AA21CB7A4000B967AA /* AppDelegate.swift */,
+				4EC560AC21CB7A4000B967AA /* ViewController.swift */,
+				4EC560B121CB7A4000B967AA /* Assets.xcassets */,
+				4EC560B621CB7A4000B967AA /* Info.plist */,
+				4EC560B321CB7A4000B967AA /* LaunchScreen.storyboard */,
+				4EC560AE21CB7A4000B967AA /* Main.storyboard */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EC5603F21CB740700B967AA /* Waterman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC5605021CB740800B967AA /* Build configuration list for PBXNativeTarget "Waterman" */;
+			buildPhases = (
+				4EC5603C21CB740700B967AA /* Sources */,
+				4EC5603D21CB740700B967AA /* Frameworks */,
+				4EC5603E21CB740700B967AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waterman;
+			productName = Waterman;
+			productReference = 4EC5604021CB740700B967AA /* Waterman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EC560A721CB7A4000B967AA /* Waterman_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC560B721CB7A4000B967AA /* Build configuration list for PBXNativeTarget "Waterman_iOS" */;
+			buildPhases = (
+				4EC560A421CB7A4000B967AA /* Sources */,
+				4EC560A521CB7A4000B967AA /* Frameworks */,
+				4EC560A621CB7A4000B967AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waterman_iOS;
+			productName = Waterman_iOS;
+			productReference = 4EC560A821CB7A4000B967AA /* Waterman_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EC5603821CB740700B967AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = voicesync;
+				TargetAttributes = {
+					4EC5603F21CB740700B967AA = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					4EC560A721CB7A4000B967AA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4EC5603B21CB740700B967AA /* Build configuration list for PBXProject "Waterman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EC5603721CB740700B967AA;
+			productRefGroup = 4EC5604121CB740700B967AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EC5603F21CB740700B967AA /* Waterman */,
+				4EC560A721CB7A4000B967AA /* Waterman_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EC5603E21CB740700B967AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC5605621CB744300B967AA /* Main.storyboard in Resources */,
+				4EC5604821CB740800B967AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC560A621CB7A4000B967AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC560B521CB7A4000B967AA /* LaunchScreen.storyboard in Resources */,
+				4EC560B221CB7A4000B967AA /* Assets.xcassets in Resources */,
+				4EC560B021CB7A4000B967AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EC5603C21CB740700B967AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC560A221CB768B00B967AA /* Point3d.swift in Sources */,
+				4E21FCEC21D390C300FE615D /* mainDefinitions.swift in Sources */,
+				4EC560A021CB768B00B967AA /* VertexList.swift in Sources */,
+				4EC5609A21CB768B00B967AA /* Vector3d.swift in Sources */,
+				4EC5609B21CB768B00B967AA /* Face.swift in Sources */,
+				4EC5609E21CB768B00B967AA /* WatermanPolyhedra.swift in Sources */,
+				4E21FCD221D375CD00FE615D /* FaceList.cpp in Sources */,
+				4EC5609C21CB768B00B967AA /* FaceList.swift in Sources */,
+				4E21FCD721D375CD00FE615D /* QuickHull3D.cpp in Sources */,
+				4E21FCD621D375CD00FE615D /* Point3d.cpp in Sources */,
+				4EC5606021CB752E00B967AA /* ViewController.swift in Sources */,
+				4EC5608F21CB75D700B967AA /* SCNmisc.swift in Sources */,
+				4E21FCD321D375CD00FE615D /* HalfEdge.cpp in Sources */,
+				4E35183321CCCA6D00840BAC /* Iterators.swift in Sources */,
+				4EC5605F21CB752E00B967AA /* AppDelegate.swift in Sources */,
+				4EC560A121CB768B00B967AA /* Vertex.swift in Sources */,
+				4E21FCCE21D375C000FE615D /* C_Interface.swift in Sources */,
+				4EC5608D21CB75D700B967AA /* SCNVector3Extensions.swift in Sources */,
+				4EC5608E21CB75D700B967AA /* WatermanScene.swift in Sources */,
+				4E21FCD821D375CD00FE615D /* Face.cpp in Sources */,
+				4E21FCDA21D375CD00FE615D /* Vertex.cpp in Sources */,
+				4E21FCD921D375CD00FE615D /* VertexList.cpp in Sources */,
+				4E21FCD021D375CD00FE615D /* swiftInterface.cpp in Sources */,
+				4EC5609F21CB768B00B967AA /* HalfEdge.swift in Sources */,
+				4EC5609D21CB768B00B967AA /* QuickHull3D.swift in Sources */,
+				4E21FCE821D37CB600FE615D /* watermanpoly.cpp in Sources */,
+				4E03C0BC21D22B4100B32E0E /* PointSegment.swift in Sources */,
+				4E21FCD521D375CD00FE615D /* Vector3d.cpp in Sources */,
+				4EC5606321CB755000B967AA /* strobeColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC560A421CB7A4000B967AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E21FCE321D375CD00FE615D /* Face.cpp in Sources */,
+				4E21FCED21D390C300FE615D /* mainDefinitions.swift in Sources */,
+				4E21FCE421D375CD00FE615D /* VertexList.cpp in Sources */,
+				4EC560C621CB7B4200B967AA /* WatermanScene.swift in Sources */,
+				4E21FCE221D375CD00FE615D /* QuickHull3D.cpp in Sources */,
+				4EC560BE21CB7B3B00B967AA /* HalfEdge.swift in Sources */,
+				4EC560BB21CB7B3B00B967AA /* Face.swift in Sources */,
+				4EC560C221CB7B4200B967AA /* strobeColors.swift in Sources */,
+				4EC560C021CB7B3B00B967AA /* Vertex.swift in Sources */,
+				4EC560BA21CB7B3B00B967AA /* Vector3d.swift in Sources */,
+				4E21FCCF21D375C000FE615D /* C_Interface.swift in Sources */,
+				4EC560C421CB7B4200B967AA /* SCNmisc.swift in Sources */,
+				4E35183421CD035E00840BAC /* Iterators.swift in Sources */,
+				4EC560BC21CB7B3B00B967AA /* FaceList.swift in Sources */,
+				4EC560C121CB7B3B00B967AA /* Point3d.swift in Sources */,
+				4E21FCDE21D375CD00FE615D /* HalfEdge.cpp in Sources */,
+				4EC560AD21CB7A4000B967AA /* ViewController.swift in Sources */,
+				4EC560C521CB7B4200B967AA /* SCNVector3Extensions.swift in Sources */,
+				4E21FCDD21D375CD00FE615D /* FaceList.cpp in Sources */,
+				4E21FCE121D375CD00FE615D /* Point3d.cpp in Sources */,
+				4EC560BF21CB7B3B00B967AA /* VertexList.swift in Sources */,
+				4E21FCE521D375CD00FE615D /* Vertex.cpp in Sources */,
+				4EC560C321CB7B4200B967AA /* WatermanPolyhedra.swift in Sources */,
+				4EC560AB21CB7A4000B967AA /* AppDelegate.swift in Sources */,
+				4E21FCDB21D375CD00FE615D /* swiftInterface.cpp in Sources */,
+				4EC560BD21CB7B3B00B967AA /* QuickHull3D.swift in Sources */,
+				4E21FCE921D37CB600FE615D /* watermanpoly.cpp in Sources */,
+				4E21FCEA21D38A8A00FE615D /* PointSegment.swift in Sources */,
+				4E21FCE021D375CD00FE615D /* Vector3d.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EC560AE21CB7A4000B967AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC560AF21CB7A4000B967AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EC560B321CB7A4000B967AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC560B421CB7A4000B967AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EC5604E21CB740800B967AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EC5604F21CB740800B967AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4EC5605121CB740800B967AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Waterman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ALFNML2A4Q;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = voicesync.Waterman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WaterManPoly-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4EC5605221CB740800B967AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Waterman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ALFNML2A4Q;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = voicesync.Waterman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WaterManPoly-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		4EC560B821CB7A4000B967AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALFNML2A4Q;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "voicesync.Waterman-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "WaterManPoly-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EC560B921CB7A4000B967AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALFNML2A4Q;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "voicesync.Waterman-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "WaterManPoly-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EC5603B21CB740700B967AA /* Build configuration list for PBXProject "Waterman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC5604E21CB740800B967AA /* Debug */,
+				4EC5604F21CB740800B967AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC5605021CB740800B967AA /* Build configuration list for PBXNativeTarget "Waterman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC5605121CB740800B967AA /* Debug */,
+				4EC5605221CB740800B967AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC560B721CB7A4000B967AA /* Build configuration list for PBXNativeTarget "Waterman_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC560B821CB7A4000B967AA /* Debug */,
+				4EC560B921CB7A4000B967AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EC5603821CB740700B967AA /* Project object */;
+}
